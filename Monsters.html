@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monsters!</title>
+    <link href="assets/css/fluid.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" language="javascript" src="assets/js/monsterFunc.js"></script>
+</head>
+<body>
+<div id="outer">
+    <div id="min" class="col-lg-6 col-sm-12 img-responsive">
+        <canvas id="canvas1" width="600" height="600" class="img-responsive"> Your browser doesn't support the canvas!  Try another browser. </canvas>
+        <canvas id="canvas2" width="600" height="600" class="img-responsive"> Your browser doesn't support the canvas!  Try another browser. </canvas>
+        <canvas id="canvas3" width="600" height="600" class="img-responsive"> Your browser doesn't support the canvas!  Try another browser. </canvas>
+        <canvas id="canvas4" width="600" height="600" class="img-responsive"> Your browser doesn't support the canvas!  Try another browser. </canvas>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+        <!--// EYES SECTION***************-->
+        <div>
+            <img src="img/icons/ic_body_ball.jpg" onclick="drawBody(1)" />
+            <img src="img/icons/ic_body_alien.jpg" onclick="drawBody(2)" />
+            <img src="img/icons/ic_body_block.jpg" onclick="drawBody(3)" />
+            <img src="img/icons/ic_body_cool.jpg" onclick="drawBody(4)" />
+            <img src="img/icons/ic_body_guy.jpg" onclick="drawBody(5)" />
+            <img src="img/icons/ic_body_blob.jpg" onclick="drawBody(6)" />
+        </div>
+        <br>
+        <!--// HEAD SECTION***************-->
+        <div>
+            <img src="img/icons/ic_head_blackhair.jpg" onclick="drawHead(1)" />
+            <img src="img/icons/ic_head_blonde.jpg" onclick="drawHead(2)" />
+            <img src="img/icons/ic_head_hat.jpg" onclick="drawHead(3)" />
+            <img src="img/icons/ic_head_headphones.jpg" onclick="drawHead(4)" />
+            <img src="img/icons/ic_head_horns.jpg" onclick="drawHead(5)" />
+            <img src="img/icons/ic_head_ribbon.jpg" onclick="drawHead(6)" />
+        </div>
+        <br>
+        <!--// EYES SECTION***************-->
+        <div>
+            <img src="img/icons/ic_eyes_angry.jpg" onclick="drawEyes(1)" />
+            <img src="img/icons/ic_eyes_beady.jpg" onclick="drawEyes(2)" />
+            <img src="img/icons/ic_eyes_blank.jpg" onclick="drawEyes(3)" />
+            <img src="img/icons/ic_eyes_blue.jpg" onclick="drawEyes(4)" />
+            <img src="img/icons/ic_eyes_closed.jpg" onclick="drawEyes(5)" />
+            <img src="img/icons/ic_eyes_crossed.jpg" onclick="drawEyes(6)" />
+        </div>
+        <br>
+        <div>
+            <img src="img/icons/ic_eyes_dots.jpg" onclick="drawEyes(7)" />
+            <img src="img/icons/ic_eyes_dunce.jpg" onclick="drawEyes(8)" />
+            <img src="img/icons/ic_eyes_sad.jpg" onclick="drawEyes(9)" />
+            <img src="img/icons/ic_eyes_wide.jpg" onclick="drawEyes(10)" />
+            <img src="img/icons/ic_eyes_wink.jpg" onclick="drawEyes(11)" />
+        </div>
+        <br>
+        <!--// MOUTH SECTION***************-->
+        <div>
+            <img src="img/icons/ic_mouth_awe.jpg" onclick="drawMouth(1)" />
+            <img src="img/icons/ic_mouth_goober.jpg" onclick="drawMouth(2)" />
+            <img src="img/icons/ic_mouth_goof.jpg" onclick="drawMouth(3)" />
+            <img src="img/icons/ic_mouth_line.jpg" onclick="drawMouth(4)" />
+            <img src="img/icons/ic_mouth_nice.jpg" onclick="drawMouth(5)" />
+            <img src="img/icons/ic_mouth_plain.jpg" onclick="drawMouth(6)" />
+        </div>
+        <br>
+        <div>
+            <img src="img/icons/ic_mouth_shock.jpg" onclick="drawMouth(7)" />
+            <img src="img/icons/ic_mouth_smirk.jpg" onclick="drawMouth(8)" />
+            <img src="img/icons/ic_mouth_tongue.jpg" onclick="drawMouth(9)" />
+            <img src="img/icons/ic_mouth_tooth.jpg" onclick="drawMouth(10)" />
+            <img src="img/icons/ic_mouth_vampire.jpg" onclick="drawMouth(11)" />
+        </div>
+    </div>
+    <div>
+        <audio id="audio1" preload="auto">
+            <source id="ding1" src="assets/sounds/ding1.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+        <audio id="audio2" preload="auto">
+            <source id="ding2" src="assets/sounds/ding2.wav" type="audio/wav">
+            Your browser does not support audio.
+        </audio>
+        <audio id="audio3" preload="auto">
+            <source id="ding3" src="assets/sounds/ding3.wav" type="audio/wav">
+            Your browser does not support audio.
+        </audio>
+        <audio id="audio4" preload="auto">
+            <source id="ding4" src="assets/sounds/ding4.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </div>
+</div>
+</body>
+</html>
